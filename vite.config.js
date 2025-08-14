@@ -6,6 +6,6 @@ import { svelte } from '@sveltejs/vite-plugin-svelte';
 export default defineConfig({ plugins: [tailwindcss(), svelte()],
     server:{
         cors:true,
-        allowedHosts:['https://certgenieserver-production.up.railway.app/'],
+        allowedHosts:['https://certgenieserver-production.up.railway.app'],
     }
  });
