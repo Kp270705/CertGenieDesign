@@ -40,7 +40,7 @@
       error = result.message;
       errorDetail = result.description;
       showError = true;
-      btnAction = "Go to Dashboard";
+      btnAction = "Go to Home";
       btnRoute = "/home";
       btnAction2 = null;
       btnRoute2 = null;
