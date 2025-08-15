@@ -3,7 +3,7 @@
   import { Animate } from 'svelte-animate'; 
 </script>
 
-<div class="mx-65">
+<div class="mx-10">
 
 
   <Heading  tag="h2" class="mt-10 mb-10 text-blue-400 dark:text-yellow-300 uppercase italic underline text-left font-semibold bg-gray-50 dark:bg-gray-700 p-4" >

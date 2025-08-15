@@ -4,7 +4,8 @@
   import user from "../../assets/icons/user2.png";
   import FormDrawer from "../Drawer/FormDrawer.svelte";
   import routesType from "../../config/backend_routes";
-  let hidden3 = $state(true);
+  import { FaceExplodeSolid } from "flowbite-svelte-icons";
+  let open1 = $state(false);
   let token = $state('')
   let res = $state(null)
   let data = $state()
@@ -13,8 +14,6 @@
   let socialMediaLink = $state('')
   let userEmail = $state('')
   let userHobbies = $state('')
-
-//   conat data2 = new FormData()
 
 
   // Use $effect for async operations
@@ -49,7 +48,7 @@
   <div class="p-3">
     <div class="mb-2 flex items-center justify-between">
       <Avatar href="/" src={user} alt="Jese Leos" class="duration-600 hover:scale-250"/>
-      <Button size="xs" onclick={()=>{hidden3=false}}>Edit Details</Button>
+      <Button size="xs" onclick={()=>{open1=true}}>Edit Details</Button>
     </div>
     <div class="text-base leading-none font-semibold text-gray-900 dark:text-white">
       <a href="/">{userName}</a>
@@ -80,4 +79,5 @@
   </div>
 </Popover>
 
-<FormDrawer bind:hidden3 />
+<FormDrawer bind:open1 />
+<!-- <FormDrawer open1={1} /> -->
