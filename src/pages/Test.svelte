@@ -72,9 +72,9 @@
 
   <Footer footerType="logo" class="mt-auto border-t pt-4 flex-shrink-0">
     <div class="flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
-      <FooterBrand href="https://flowbite.com" src={user} alt="Flowbite Logo" name="Flowbite" />
+      <FooterBrand href="https://flowbite.com" src={user} alt="CertGenieLogo" name="CertGenie" />
     </div>
     <hr class="my-4 border-gray-200 dark:border-gray-700" />
-    <FooterCopyright href="/" by="Flowbite™" />
+    <FooterCopyright href="/" by="CertGenie™" />
   </Footer>
 </Drawer>

@@ -5,6 +5,7 @@
 
   import routesType from "../../config/backend_routes";
   import user from "../../assets/icons/user2.png";
+  import logo from "../../assets/icons/certGen3.png"
   
   let { open1 = $bindable(true) } = $props()
 
@@ -73,10 +74,10 @@
 
     <Footer footerType="logo" class="mt-auto border-t pt-4">
       <div class="flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
-        <FooterBrand href="https://flowbite.com" src={user} alt="Flowbite Logo" name="Flowbite" />
+        <FooterBrand href="https://flowbite.com" src={logo} alt="Flowbite Logo" name="CertGenie" />
       </div>
       <hr class="my-4 border-gray-200 dark:border-gray-700" />
-      <FooterCopyright href="/" by="Flowbite™" />
+      <FooterCopyright href="/" by="CertGenie™" />
     </Footer>
   </div>
 </Drawer>
